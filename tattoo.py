@@ -2,6 +2,9 @@ import cv2
 import numpy as np
 from tkinter import Tk, filedialog
 from PIL import Image
+from flask import Flask
+app = Flask(__name__)
+
 
 # Step 1: Select image file
 Tk().withdraw()
